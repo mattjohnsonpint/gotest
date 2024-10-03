@@ -1,7 +1,7 @@
 package main
 
-import "github.com/mattjohnsonpint/gotest/sdks/golang/pkg/foo"
+import "fmt"
 
 func main() {
-	foo.SayHello()
+	fmt.Println("Hello from main!")
 }
